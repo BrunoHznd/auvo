@@ -1,0 +1,26 @@
+# Bibliotecas principais
+streamlit==1.32.0
+pandas==2.1.4
+numpy==1.26.3
+
+# Visualização de dados
+matplotlib==3.8.2
+altair==5.2.0
+pydeck==0.8.0
+plotly==5.18.0
+xlsxwriter==3.1.9
+Pillow==10.1.0
+
+# Processamento de dados
+requests==2.31.0
+python-dotenv==1.0.0
+json5==0.9.14
+
+# Manipulação de datas
+python-dateutil==2.8.2
+pytz==2023.3
+
+# Outras dependências
+beautifulsoup4==4.12.2
+geopy==2.4.1
+openpyxl==3.1.2  # Para suporte a exportação Excel

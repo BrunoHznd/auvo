@@ -1,0 +1,12 @@
+[Unit]
+Description=Painel Técnico Setor 5 (Streamlit)
+After=network.target
+
+[Service]
+WorkingDirectory=/root/auvo-git/painel
+ExecStart=/root/auvo-git/venv/bin/python -m streamlit run setor5.py --server.port=8506
+Restart=always
+User=root
+
+[Install]
+WantedBy=multi-user.target
