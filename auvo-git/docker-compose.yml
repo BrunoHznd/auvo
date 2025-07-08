@@ -1,0 +1,42 @@
+version: '3.9'
+
+services:
+  setor1:
+    build:
+      context: .
+    command: streamlit run setor1.py
+    working_dir: /app
+    ports:
+      - "8501:8501"
+
+  setor2:
+    build:
+      context: .
+    command: streamlit run setor2.py
+    working_dir: /app
+    ports:
+      - "8502:8501"
+
+  setor3:
+    build:
+      context: .
+    command: streamlit run setor3.py
+    working_dir: /app
+    ports:
+      - "8503:8501"
+
+  setor4:
+    build:
+      context: .
+    command: streamlit run setor4.py
+    working_dir: /app
+    ports:
+      - "8504:8501"
+
+  setor5:
+    build:
+      context: .
+    command: streamlit run setor5.py
+    working_dir: /app
+    ports:
+      - "8505:8501"
